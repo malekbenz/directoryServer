@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+        <link rel="stylesheet" href="/css/style.css">
+    </header>
+
+    <main>
+      <div class="container">
+          <div class="card card-container">
+              <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+              <img id="profile-img" class="profile-img-card" src="images/avatar_2x.png" />
+              <p id="profile-name" class="profile-name-card"></p>
+              <form class="form-signin" action="/login<%= url?'?url='+url :'' %>" method="post" >
+                  <span id="reauth-email" class="reauth-email"></span>
+                  <input type="email" id="inputEmail" name="loginEmail" class="form-control" placeholder="Utilisateur" required autofocus>
+                  <input type="password" id="inputPassword" name="loginPassword"  class="form-control" placeholder="Mot de passe" required>
+                  <div id="remember" class="checkbox">
+                      <label>
+                          <input type="checkbox" value="remember-me"> Remember Me!
+                      </label>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Connecter !</button>
+              </form><!-- /form -->
+              <a href="#" class="forgot-password">
+                  Forgot your password?
+              </a>
+          </div><!-- /card-container -->
+      </div><!-- /container -->
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+</html>
