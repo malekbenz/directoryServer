@@ -11,6 +11,9 @@ ex:
 var sharedPath ='D:\\' to share d:\ directory on windows 
 
 Execute by :
+ npm install 
+ bower install
+ and then 
  node server
  
  
