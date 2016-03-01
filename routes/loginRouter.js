@@ -19,7 +19,7 @@ function authUser(currentUser, callback ){
 
 router.get('/', function(req, res) {
     console.log(req.query.url) ;
-      res.
+
       res.render('pages/login', { title: 'The index page!', url: req.query.url});
     }).post('/', function(req, res) {
 
