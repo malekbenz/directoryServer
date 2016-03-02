@@ -9,9 +9,9 @@
 ex: 
     var sharedPath ='D:\\' to share d:\ directory on windows 
 
-## Execution :
- ### npm install 
- ### bower install
- ### node server
+## Run the app :
+ 1. npm install 
+ 2. bower install
+ 3. node server 
  
  
