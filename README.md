@@ -1,19 +1,17 @@
 # directoryServer
-Application that serve a direcory from web page
 
-You can share a folder edit routes/browseRouter.js
+## Application that serve a direcory from web page
 
 
-modify var sharedPath ='Y:\\' ;  to  your directory name 
+##Directory to share 
+1. You can share a folder edit routes/browseRouter.js
+2. Modify var sharedPath ='Y:\\' ;  to  your directory name 
 ex: 
+    var sharedPath ='D:\\' to share d:\ directory on windows 
 
-
-var sharedPath ='D:\\' to share d:\ directory on windows 
-
-Execute by :
- npm install 
- bower install
- and then 
- node server
+## Execution :
+ ### npm install 
+ ### bower install
+ ### node server
  
  
